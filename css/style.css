@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+
+p,
+h5,
+a {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    font-size: 19px;
+    color: black;
+}
+
+.Barralateral {
+    flex-direction: column;
+    width: 20%;
+    background-color: rgba(139, 4, 99, 0.938);
+    align-items: center;
+    border: 6px solid rgba(105, 23, 91, 0.993);
+   
+}
+
+.Barralateral img {
+    width: 100%;
+    border-radius: 100%;
+    margin: 15px 0;
+}
+
+#corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-image: url(/imagem/ceu.jpg);
+    padding: 2rem 10%;
+    gap: 20px;
+}
+
+#link,
+a {
+    color: #ffffff;
+}
+
+#link {
+    text-align: center;
+}
+
+.git {
+    
+    justify-content: center;
+    margin-top: 60px; 
+}
+
+.git i{
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+.sobre{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color:  rgba(255, 255, 255, 0.767);
+padding: 8px;
+border-radius: 10px
+}
+
+.sobre h2 {
+    margin: 1px;
+    font-size: 20px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.meu-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jornada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.767);
+    width: 100%;
+    padding: 8px;
+}
+
+.historia a{
+    color: black;
+
+}
+
+.historia a:hover{
+    color: purple;
+}
+
+
+.rede-de-contatos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.767);
+    width: 100%;
+    padding: 10px;
+}
+
+.rede-de-contatos h2{
+color: rgb(59, 7, 59);
+padding:10px 0;
+}
+
+.container-sm{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.cards{
+    width: calc(100%/7);
+   min-width: 80px;
+}
+
+.cards:hover img{
+    box-shadow: 0px 0px 100px rgb(31, 29, 29);
+}
+
+
+.cards img{
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+.whatsaap {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    color: green;
+}
+
+.whatsaap:hover {
+    width: 85px;
+    height: 85px;
+    transition: 2s;
+    background-color: rgb(47, 228, 47);
+    color: black;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    
+    .Barralateral{
+        width: 100%;
+     padding-bottom: 40px;
+    }
+
+    .Barralateral img{
+        width: 25%;
+    }
+    #corpo{
+        width: 100%;
+    }
+
+    #email p {
+          font-size: 16px;
+    }
+    
+
+}
+
+    
